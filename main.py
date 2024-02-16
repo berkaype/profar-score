@@ -15,8 +15,6 @@ import six
 
 data = pd.read_excel("./tesis_data.xlsx")
 
-# yeni
-
 # Create DataFrame
 df = pd.DataFrame(data)
 
