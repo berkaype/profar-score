@@ -3,15 +3,9 @@ import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
 import six
+import tkinter as tk
 
 # Define the data
-""" data = {
-    "Tesis Adı": ["Ambarlı", "Büyükçekmece", "Selimpaşa", "Silivri", "Çanta"],
-    "Çamur Yaşı": [19.95, 10.09, 14.2, 16.18, 13.47],
-    "α": [0.5426, 0.8358, 0.6413, 0.7998, 0.9],
-    "SAE": [6.46, 4.81, 5.58, 4.44, 3.96],
-    "Düzeltilmiş AKM %": [1.2, 13.46, 4.94, 3.61, 52.84]
-}"""
 
 data = pd.read_excel("./tesis_data.xlsx")
 
